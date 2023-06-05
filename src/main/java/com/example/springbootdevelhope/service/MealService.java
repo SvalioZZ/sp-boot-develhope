@@ -1,10 +1,7 @@
 package com.example.springbootdevelhope.service;
 
-import com.example.springbootdevelhope.model.Meal;
-import com.example.springbootdevelhope.component.RestaurantConfig;
 import com.example.springbootdevelhope.dao.MealDao;
-import com.mashape.unirest.http.HttpResponse;
-import com.mashape.unirest.http.JsonNode;
+import com.example.springbootdevelhope.model.Meal;
 import com.mashape.unirest.http.Unirest;
 import com.mashape.unirest.http.exceptions.UnirestException;
 import org.json.JSONObject;
