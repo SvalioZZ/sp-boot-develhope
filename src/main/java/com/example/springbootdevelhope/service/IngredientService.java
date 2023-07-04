@@ -24,6 +24,7 @@ public class IngredientService  {
         addIngredient(ingredient);
     }
     
+    
     public Ingredient getIngredient(Long id){
         return ingredientDao.findById(id).orElse(null);
     }

@@ -25,6 +25,7 @@ public class IngredientController {
     public ResponseEntity<String> addIngredient(@RequestBody Ingredient ingredient) {
         ingredientService.addIngredient(ingredient);
         return ResponseEntity.ok("Ingredient Added!");
+        
     }
     
     @PutMapping("/update-ingredient/{id}")
