@@ -43,8 +43,8 @@ public class MealController {
     }
     
     @GetMapping("/summer-meals")
-    public ResponseEntity<List<Meal>> getSummerMeals() {
-        return ResponseEntity.ok(mealService.getSummerMeals());
+    public ResponseEntity<List<Meal>> getWinterMeals() {
+        return ResponseEntity.ok(mealService.getWinterMeals());
     }
     
     @GetMapping("/secret-formula")
